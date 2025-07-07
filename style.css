@@ -1,1 +1,35 @@
 /* Start coding here */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  font-family: Times New Roman, Times, serif;
+}
+
+.welcome-box {
+  background: hsla(0, 50%, 100%, 0.5);
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 0 auto;
+}
+
+.welcome-box h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome-box p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.25;
+  text-align: justify;
+}
